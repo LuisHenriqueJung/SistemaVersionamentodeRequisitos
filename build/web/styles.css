@@ -1,0 +1,192 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 de set. de 2022, 11:29:25
+    Author     : luisc
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    height: 100%;
+    
+}
+
+body {
+    background-color: #01579B;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h4 {
+    background-color: #01579B;
+    color: white;
+    text-align: center;
+    height: 40px;
+    position: relative;
+    
+}
+h3{
+    text-align: center;
+    color: white;
+
+}
+
+
+
+/* -----------------NAVBAR----------------------*/
+
+#page {
+
+    display: flex;
+    border-top: solid 2px #EEEEEE;
+    margin-top: 54px;
+    background-color: #01579B;
+
+}
+/* -----------------FIM NAVBAR----------------------*/
+
+/*-----------------------MENU LATERAL --------------*/
+#menu_lateral {
+    flex-grow: 1;
+    min-width: 220px;
+    height: 100%;
+    background-color: #01579B;
+    padding: 15px;
+}
+.menu-btn {
+    text-align: center;
+    line-height:45px;
+    flex-grow: 0;
+    background-color: #EEEEEE;
+    height: 45px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu-btn:hover{
+    scale: 1.03;
+}
+
+/*-------------------FIM MENU LATERAL --------------*/
+
+/*-------------------CONTEUDO-----------------------*/
+#conteudo-requisitos {
+    flex-direction: column;
+    flex-grow: 6;
+    background-color: #EEEEEE;
+    margin: 0px 25px 25px 0px;
+}
+#novo-requisito{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 6;
+    background-color: #EEEEEE;
+    margin: 0px 25px 25px 0px;
+    box-sizing: content-box;
+    border: 1px solid #01579B;
+
+}
+/*-------------PESQUISAR-------------------------*/
+#pesquisa {
+    border: 1px solid #01579B;
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: white;
+    display: flex;
+    height: 162px;
+}
+/*-----------------FIM PESQUISAR----------------*/
+
+/*-------------------------REQUISITOS--------------*/
+.panel_requisitos {
+    border: solid 1px #01579B;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin: 10px;
+    background-color: white;
+    flex-flow: column;
+    height: 66vh;
+
+    
+}
+
+
+#panels{
+    display: flex;
+}
+
+.cartao {
+    background-color: #EEEEEE;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px ;
+}
+.cartao:hover{
+    background-color: #E1F5FE;
+}
+.card-content{
+    display: flex;
+}
+/*------------------------- FIM REQUISITOS--------------*/
+/*--------------------USUARIOS------------*/
+
+#page-user{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    background-color: #EEEEEE;
+    
+    }
+#table-usuarios{
+    flex-grow: 1;
+    background-color: white;
+    margin: 10px;
+
+    align-items: stretch;
+    overflow-y: auto;
+    border: solid 1px #01579B;
+    
+}
+/*------------------PROJETOS------------------*/
+#form-cadastro-projeto{
+    flex-grow: 2;
+    background-color: white;
+    margin: 10px;
+    border: solid 1px #01579B;
+}
+#form-projetos{
+    flex-grow: 1;
+    background-color: white;
+    margin: 10px;
+
+    align-items: stretch;
+    overflow-y: auto;
+    border: solid 1px #01579B;
+    
+}
+#cadastrar-projeto{
+    padding: 20px
+}
+
+#page-project{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    background-color: #EEEEEE;
+}
+/*--------------------CADASTRO-----------------------*/
+#cadastro{
+    background-color: white;
+    width: 50vh;
+    padding: 30px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
